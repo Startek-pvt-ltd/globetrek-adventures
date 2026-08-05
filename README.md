@@ -40,4 +40,4 @@ GlobeTrek Adventures is a travel booking web application developed for the Web A
 Example:
 
 ```text
-http://localhost/globetrek/
+http://localhost/globetrek_adventures/
