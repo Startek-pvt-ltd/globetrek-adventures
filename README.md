@@ -2,7 +2,7 @@
 
 **Academic PHP/MySQL travel-booking web application** built for the Web Application Development module at ICBT Campus.
 
-> **Status: Academic demonstration — not production-ready.** The project uses a demo booking workflow and does **not** accept or process real payments. Do not enter payment-card information. This repository has not yet completed production security testing.
+> **Status: Original academic demonstration — not production-ready.** The original booking form contains card-number, expiry, and CVV fields for a classroom payment simulation. It does **not** connect to a real payment processor. **Never enter genuine payment-card information.** The booking and database implementation remain unchanged.
 
 ## What the code demonstrates
 
@@ -52,7 +52,7 @@ The schema includes demonstration accounts and sample Sri Lankan travel packages
 
 ## Booking and payment behavior
 
-The booking form creates a **demo booking only**. It does not process a charge, capture card numbers, or store CVVs. New bookings begin with `payment_status = pending` and `booking_status = pending`. A payment gateway, reconciliation, and verified payment webhooks are **not** implemented.
+The original booking form asks for simulated card number, expiry, and CVV entries. It checks input formats and marks a newly created demo booking as `payment_status = paid` and `booking_status = pending`, inserting a **Card Simulation** payment record. These labels are demonstration behavior **only**, not evidence of a real card transaction or settled funds. No payment processor is integrated. **Do not enter actual card credentials or deploy the payment simulation as a real checkout.** This behavior is preserved as originally implemented for coursework.
 
 ## Security-related implementation notes
 
@@ -68,7 +68,7 @@ After installing PHP locally, syntax-check all PHP files:
 find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n 1 php -l
 ```
 
-A GitHub Actions workflow also runs syntax lint on pushes and pull requests. It does not yet verify integration behavior or database migrations.
+A proposed GitHub Actions workflow attempts PHP syntax lint on pushes and pull requests. Its initial runs reported failure, and the reason has not yet been verified. No successful automated check or application runtime test is claimed.
 
 ## Known limitations
 
@@ -76,7 +76,7 @@ A GitHub Actions workflow also runs syntax lint on pushes and pull requests. It 
 - **Unfinished pages:** `admin/reports.php`, `staff/confirm-bookings.php`, `staff/respond-queries.php`, and `staff/update-packages.php` contain placeholders (related functionality appears in the dashboards).
 - **Local path assumption:** routes and assets assume the URL prefix `/globetrek_adventures/`.
 - **Demo seed accounts:** SQL imports seeded local users; remove or secure them before any external deployment.
-- **No real payment integration:** bookings require a future verified payment workflow.
+- **Classroom payment simulation:** the booking form requests card-like entries and records a simulated 'paid' status; never submit real card details or treat the result as a genuine payment.
 - **Testing:** PHP syntax lint is not a substitute for authentication, authorization, booking, and end-to-end tests.
 - **Database initialization:** schema import is destructive; migrations and backup procedures are not yet implemented.
 
