@@ -111,3 +111,17 @@ These limitations are documented to represent the original coursework accurately
 **Original source:** Preserved through the GitHub ownership transfer from `Startek-pvt-ltd`.
 
 This project is presented as academic work. The Git history remains the primary record of contributions; additional teammate credits should be retained where applicable.
+
+---
+
+## Original application screenshots and testing evidence
+
+Authentic screenshots extracted without edits from my **CSE5009 — Web Application Development** submitted report. These are historic coursework captures, not freshly run application tests.
+
+![Home page](docs/screenshots/home-page.png)
+
+- [Browse the application screenshot gallery](docs/screenshots/README.md)
+- [Read the historical test evidence and case-by-case traceability](docs/evidence/REPORT_TEST_EVIDENCE.md)
+- [Inspect screenshot provenance and SHA-256 checksums](docs/evidence/SOURCE_PROVENANCE.json)
+
+> The original academic application and database were preserved. Demonstration payment forms are not real payment processing.

@@ -1,0 +1,171 @@
+{
+  "project": "GlobeTrek Adventures",
+  "source_report": "st20345403_CSE5009_WRIT1.docx",
+  "module": "CSE5009 — Web Application Development",
+  "source_report_sha256": "d4e73bd5b9b08c1739d01ca241cc805da5295d7dc6aabd8a1d4c9b85ddcc12b2",
+  "provenance": "Exact PNG bytes extracted from word/media assets inside original submitted DOCX; screenshots have not been redrawn, enhanced, annotated or manipulated. Names and gallery selection are new.",
+  "runtime_tests_performed_now": false,
+  "github_upload_performed": true,
+  "gallery": [
+    {
+      "file": "docs/screenshots/home-page.png",
+      "source_media": "word/media/image41.png",
+      "sha256": "60b47667a1f295b14d500476e012d30a949e94cd502ed0895ebe4fa9f8caf38f",
+      "bytes": 1326566,
+      "original_binary_unchanged": true,
+      "title": "Home page",
+      "source_context": "Task 02 — implementation, home page",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/packages-filters.png",
+      "source_media": "word/media/image47.png",
+      "sha256": "847fc4cbaf4c12f0641a542f5ffdef00a212fa12ecadfb30f874eabd951b2bd7",
+      "bytes": 668444,
+      "original_binary_unchanged": true,
+      "title": "Travel package browsing and filters",
+      "source_context": "Task 02 — implementation, packages",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/destinations.png",
+      "source_media": "word/media/image50.png",
+      "sha256": "68863f1352d9b0cae685a08e2ccaabb7e4877db9c31d47e8579ff09f06244d42",
+      "bytes": 823944,
+      "original_binary_unchanged": true,
+      "title": "Sri Lankan destination cards",
+      "source_context": "Task 02 — implementation, destinations",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/accommodation.png",
+      "source_media": "word/media/image53.png",
+      "sha256": "d679f58f8ddba9039950298dd9b22e423206e199a6b0b3a4f272518df8f72922",
+      "bytes": 746338,
+      "original_binary_unchanged": true,
+      "title": "Accommodation listings",
+      "source_context": "Task 02 — implementation, stays",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/transport.png",
+      "source_media": "word/media/image55.png",
+      "sha256": "8a34472336a0ff822c11dbbfd8435510d22fdc0357ad689c454951b862d2b9fa",
+      "bytes": 733822,
+      "original_binary_unchanged": true,
+      "title": "Transportation services",
+      "source_context": "Task 02 — implementation, transport",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/travel-guides.png",
+      "source_media": "word/media/image57.png",
+      "sha256": "38928fe9cda33c062e8aeca7e03c0352a7d862477c3e1fad83665145e41d4fac",
+      "bytes": 712175,
+      "original_binary_unchanged": true,
+      "title": "Sri Lankan travel guides",
+      "source_context": "Task 02 — implementation, guides",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/contact.png",
+      "source_media": "word/media/image61.png",
+      "sha256": "303c242303ef3726d21b39407f1a088246d4c18a7f2cce06f872dd717545e843",
+      "bytes": 434018,
+      "original_binary_unchanged": true,
+      "title": "Contact and enquiry form",
+      "source_context": "Task 02 — implementation, contact",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/login.png",
+      "source_media": "word/media/image63.png",
+      "sha256": "b289386e45fd73843be007e1731d4680b254035b585b1cc27260f34d10c3de69",
+      "bytes": 247993,
+      "original_binary_unchanged": true,
+      "title": "User login screen",
+      "source_context": "Task 02 — implementation, login",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/customer-dashboard.png",
+      "source_media": "word/media/image66.png",
+      "sha256": "1b04d020defea7e4ac5ef79e7be1d029cc5f384d8019a1b103e07511a93f4727",
+      "bytes": 110425,
+      "original_binary_unchanged": true,
+      "title": "Customer booking dashboard",
+      "source_context": "Task 02 — implementation, customer dashboard",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/staff-dashboard.png",
+      "source_media": "word/media/image67.png",
+      "sha256": "9ee9d8b106da9c382a96b224c0c8be082c0d21ec8e9da8f6b32a837002dc3e43",
+      "bytes": 255578,
+      "original_binary_unchanged": true,
+      "title": "Staff package management dashboard",
+      "source_context": "Task 02 — implementation, staff dashboard",
+      "type": "implementation screenshot from report"
+    },
+    {
+      "file": "docs/screenshots/admin-dashboard.png",
+      "source_media": "word/media/image70.png",
+      "sha256": "5cbe9b70ce7a3d873aaa5a33ddee8ec00fbb53b0677958436d0e863767231c78",
+      "bytes": 195937,
+      "original_binary_unchanged": true,
+      "title": "Administrative system dashboard",
+      "source_context": "Task 02 — implementation, admin dashboard",
+      "type": "implementation screenshot from report"
+    }
+  ],
+  "historical_report_test_captures": [],
+  "privacy_note": "Review all screenshots for personal information and payment inputs before publishing to a public repository. Do not publicly expose the full submitted report without a separate privacy review.",
+  "design_diagrams": [
+    {
+      "title": "Sitemap",
+      "file": "docs/evidence/design-assets/sitemap.png",
+      "source_media": "word/media/image38.png",
+      "sha256": "1307eb3db9d9f875d3fe26f96d671c65a6152c0be8d1e1d7885458f064fb0264",
+      "bytes": 118539,
+      "original_binary_unchanged": true,
+      "evidence_type": "proposed academic design diagram, not an application screenshot or verified implementation"
+    },
+    {
+      "title": "ER diagram",
+      "file": "docs/evidence/design-assets/entity-relationship.png",
+      "source_media": "word/media/image39.png",
+      "sha256": "cc1b60cfdf786a9869f47c31ea56d9bd34f9b8fc040e1f00dfa8f729739b59ee",
+      "bytes": 205165,
+      "original_binary_unchanged": true,
+      "evidence_type": "proposed academic design diagram, not an application screenshot or verified implementation"
+    },
+    {
+      "title": "Use case diagram",
+      "file": "docs/evidence/design-assets/use-case.png",
+      "source_media": "word/media/image40.png",
+      "sha256": "7b84dccc1ac4d456dbfd46446588ed187df54e5ec67dd29634608765f400daee",
+      "bytes": 214091,
+      "original_binary_unchanged": true,
+      "evidence_type": "proposed academic design diagram, not an application screenshot or verified implementation"
+    }
+  ],
+  "publication_scope": "Only original application screenshots, original design diagrams, and written historical test-result summaries",
+  "withheld_test_ids": [
+    "TC01",
+    "TC02",
+    "TC03",
+    "TC04",
+    "TC05",
+    "TC06",
+    "TC07",
+    "TC08",
+    "TC09",
+    "TC10",
+    "TC11",
+    "TC12",
+    "TC13",
+    "TC14",
+    "TC15"
+  ],
+  "publication_note": "All raw historical test-case image captures withheld from public GitHub due to potential personal data and simulated payment fields. They remain in the original source DOCX and unmodified evidence ZIP on the authorized Mac."
+}
