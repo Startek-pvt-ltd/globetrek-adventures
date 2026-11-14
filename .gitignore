@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
+# Editors
+.idea/
+.vscode/
+
+# Local dependencies and logs
+vendor/
+node_modules/
+*.log
