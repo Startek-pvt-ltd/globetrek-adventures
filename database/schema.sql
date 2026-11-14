@@ -50,7 +50,7 @@ CREATE TABLE bookings (
     travel_date DATE NOT NULL,
     num_persons INT NOT NULL,
     total_price DECIMAL(10,2) NOT NULL,
-    payment_status ENUM('pending','paid','failed','refunded') NOT NULL DEFAULT 'pending',
+    payment_status ENUM('pending','paid','failed','refunded') NOT NULL DEFAULT 'paid',
     booking_status ENUM('pending','confirmed','cancelled') NOT NULL DEFAULT 'pending',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
