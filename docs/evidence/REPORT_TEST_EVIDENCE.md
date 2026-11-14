@@ -3,25 +3,25 @@
 **Source:** `st20345403_CSE5009_WRIT1.docx`, CSE5009 — Web Application Development.
 **Evidence classification:** Historic screenshots and recorded outcomes from the submitted academic report — not freshly executed tests.
 
-**Public privacy review:** Only a subset of test captures is published here. Other captures remain in the original academic report to avoid exposing account details or payment-form examples.
+**Public privacy review:** No raw test-case captures are published. All original test images remain in the academic report and the private local evidence ZIP; only the historical test-result summary is shared.
 
-| Test | Reported scenario | Reported actual outcome | Original report screenshot |
+| Test | Reported scenario | Reported actual outcome | Screenshot availability |
 | --- | --- | --- | --- |
-| TC01 | Check Home Page | The Home page displayed successfully. | Original report capture withheld from public repository |
-| TC02 | Check User Registration | Customer account created successfully. | Retained in original report (not publicly uploaded) |
-| TC03 | Check User Login | Customer logged in successfully and dashboard displayed. | Retained in original report (not publicly uploaded) |
-| TC04 | Check Package Search and Filter | Matching packages displayed successfully. | Original report capture withheld from public repository |
-| TC05 | Check Package Details | Package details displayed successfully. | Original report capture withheld from public repository |
-| TC06 | Check Booking Process | Booking completed successfully. | Original report capture withheld from public repository |
-| TC07 | Check Payment Process (simulation) | Report calls it successful; implementation uses simulated payment only. | Retained in original report (not publicly uploaded) |
-| TC08 | Check Contact Form | Inquiry submitted successfully. | Retained in original report (not publicly uploaded) |
-| TC09 | Check Customer Dashboard | Customer dashboard displayed successfully. | Original report capture withheld from public repository |
-| TC10 | Check Staff Dashboard | Staff dashboard displayed successfully. | Original report capture withheld from public repository |
-| TC11 | Check Admin Dashboard | Admin dashboard displayed successfully. | Original report capture withheld from public repository |
-| TC12 | Check Package Management | Package updated successfully. | Original report capture withheld from public repository |
-| TC13 | Check Booking Management | Booking management completed successfully. | Retained in original report (not publicly uploaded) |
-| TC14 | Check Form Validation | Validation messages displayed successfully. | Original report capture withheld from public repository |
-| TC15 | Check Logout | User logged out and returned to login page. | Retained in original report (not publicly uploaded) |
+| TC01 | Check Home Page | The Home page displayed successfully. | Withheld in original report |
+| TC02 | Check User Registration | Customer account created successfully. | Withheld in original report |
+| TC03 | Check User Login | Customer logged in successfully and dashboard displayed. | Withheld in original report |
+| TC04 | Check Package Search and Filter | Matching packages displayed successfully. | Withheld in original report |
+| TC05 | Check Package Details | Package details displayed successfully. | Withheld in original report |
+| TC06 | Check Booking Process | Booking completed successfully. | Withheld in original report |
+| TC07 | Check Payment Process (simulation) | Report calls it successful; implementation uses simulated payment only. | Withheld in original report |
+| TC08 | Check Contact Form | Inquiry submitted successfully. | Withheld in original report |
+| TC09 | Check Customer Dashboard | Customer dashboard displayed successfully. | Withheld in original report |
+| TC10 | Check Staff Dashboard | Staff dashboard displayed successfully. | Withheld in original report |
+| TC11 | Check Admin Dashboard | Admin dashboard displayed successfully. | Withheld in original report |
+| TC12 | Check Package Management | Package updated successfully. | Withheld in original report |
+| TC13 | Check Booking Management | Booking management completed successfully. | Withheld in original report |
+| TC14 | Check Form Validation | Validation messages displayed successfully. | Withheld in original report |
+| TC15 | Check Logout | User logged out and returned to login page. | Withheld in original report |
 
 ## What these captures do and do not establish
 
