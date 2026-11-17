@@ -1,8 +1,6 @@
 # GlobeTrek Adventures
 
-**Academic travel-booking web application | PHP · MySQL · JavaScript · HTML/CSS**
-
-Built for the **Web Application Development** module at **ICBT Campus**, GlobeTrek Adventures demonstrates travel-package discovery, customer bookings, staff operations, and administrative management within a Sri Lankan tourism scenario.
+**GlobeTrek Adventures** is a PHP/MySQL academic travel-booking web application completed for the **Web Application Development** module in the **3rd semester** of the **Higher Diploma in Computing & Software Engineering** at ICBT Campus. It demonstrates travel-package discovery, customer bookings, staff operations and administrative management within a Sri Lankan tourism scenario.
 
 > **Academic demonstration — not a live booking or payment service.** The original coursework implementation is preserved. Its booking page simulates card payment; there is no real payment gateway. **Never submit real card information.**
 
